@@ -1,0 +1,158 @@
+body {
+    font-family: "Lilita One", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; 
+}
+/* Header Styles */
+.header {
+    background-color: #FF6B6B; /* Coral Red */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.cart-icon img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+/* Navigation Styles */
+.navbar {
+    background-color: #70C1B3; /* Sea Green */
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar li:last-child {
+    margin-right: 0;
+}
+
+.navbar li a {
+    display: block;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.navbar li a:hover {
+    background-color: #5A9A91; /* Darker shade of Sea Green */
+}
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer h2 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.payment-methods img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.footer-details {
+    margin-top: 20px;
+}
+
+.footer-details p {
+    margin: 5px 0;
+    color: #ccc;
+}
+@keyframes logoAnimation {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.header h1 {
+    margin: 0;
+    animation: logoAnimation 3s infinite; 
+}
+
+
+/* Product Styles */
+.product-page {
+    padding: 50px 0;
+}
+
+.product-page h2 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.product-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-details {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-details h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.product-details p {
+    color: #666;
+}
+
+.product-details button {
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product-details button:hover {
+    background-color: #ff3b2f;
+}
